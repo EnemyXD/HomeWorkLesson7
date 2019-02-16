@@ -20,13 +20,11 @@ namespace Mission1
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-            Random rnd = new Random();
-            int i = rnd.Next(0, 100);
-
+           
         }
     }
 }
